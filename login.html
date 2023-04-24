@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Log IN</title>
+<style>
+body{
+background-color:#DFBF87;
+color:#9C1027;}
+hr{
+color:#9C1027;
+}
+label{
+	margin: 20px;
+}
+h1{
+	text-align:center;
+}
+</style>
+</head>
+<body>
+	<h1>XYZ Police Portal</h1>
+	<hr>
+	<form method="post" name="loginP" action="verify.jsp">
+	<label>Officer ID: </label>
+	<input type="text" name="offid">
+	<label>Password: </label>
+	<input type="password"name="pd" >
+	<button type="submit" value="submit">Login</button>
+	<br><br>
+	<p>**Login only for registered officers.</p> 
+	<a href="RegisterP.html">Register</a>
+	</form>
+</body>
+</html>
