@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Police Registration</title>
+<style>
+body{
+background-color:#DFBF87;
+color:#9C1027;}
+hr{
+color:#9C1027;
+}
+label{
+	margin: 20px;
+}
+h1{
+	text-align:center;
+}
+</style>
+</head>
+<body>
+<h1>Police Registration Form</h1>
+<hr>
+<form method="post" action="RegP.jsp">
+	<label>Officer ID: </label><input type="text" name="n1" placeholder="Officer Number" required><br><br>
+	<label>Set Password: </label><input type="password" name="pd" placeholder="password" required><br><br>
+	<label>First Name: </label><input type="text" name="n2" placeholder="First Name" required>
+	<label>Middle Name: </label><input type="text" name="n3" placeholder="Middle Name">
+	<label>Last Name: </label><input type="text" name="n4" placeholder="Last Name" required><br><br>
+	<label>Designation: </label><input type="text" name="n5" placeholder="Posted as" required><br><br>
+	<label>Region: </label><input type="text" name="n6" placeholder="Name of Police Station" required>
+	<label>State: </label><input type="text" name="n7" placeholder="State" required>
+	<button type="submit">Submit</button>
+</form>
+</body>
+</html>
