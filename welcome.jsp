@@ -35,11 +35,11 @@ h2{
 	<h2>Indian Police Department</h2>
 	<hr>
 	<ol>
-		<li>Check cases</li>
-		<li>File FIR</li>
-		<li>Check criminal record</li>
-		<li>Add new criminal to the record </li>
-		<li>Update a criminal record</li>
+		<li><a href="#"> Check cases</a></li>
+		<li><a href="regFIR.HTML">File FIR</a></li>
+		<li><a href="#">Check criminal record</a></li>
+		<li><a href="#">Add new criminal to the record </a></li>
+		<li><a href="#">Update a criminal record</a></li>
 	</ol>
 </div>
 
