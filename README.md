@@ -1,1 +1,3 @@
 # Criminal-Database-Management-System
+
+This project is a web-based police registration and criminal records management system built using HTML, JSP, and Oracle Database. The system allows police officers to register themselves, add and view criminal records. The application uses Oracle's object browser to store and manage the data. The key features of the system include user authentication, registration, adding and viewing criminal records, and searching the records. The system provides a convenient and efficient way for the police department to manage criminal records and improve public safety.
